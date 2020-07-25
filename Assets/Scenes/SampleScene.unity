@@ -401,6 +401,7 @@ GameObject:
   - component: {fileID: 1344583481}
   - component: {fileID: 1344583480}
   - component: {fileID: 1344583479}
+  - component: {fileID: 1344583482}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -415,7 +416,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344583477}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.65, y: 0.3, z: 1.7661523}
   m_LocalScale: {x: 1.0608371, y: 0.0802348, z: 0.099328}
   m_Children: []
@@ -482,6 +483,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344583477}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1344583482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344583477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6db1e9be129e446aa45d5228f22439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAttack: 0
 --- !u!1 &1371954978
 GameObject:
   m_ObjectHideFlags: 0
